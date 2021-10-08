@@ -10,6 +10,15 @@ func main() {
 	fmt.Println(maxProfit([]int{7, 6, 4, 3, 1}))
 }
 
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
+func isPalindrome(head *ListNode) bool {
+	return false
+}
+
 func maxProfit(prices []int) int {
 	profit := 0
 	min_price := 9223372036854775807

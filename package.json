@@ -1,0 +1,23 @@
+{
+  "name": "codeing_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyuJae/coding-test-pratice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GyuJae/coding-test-pratice/issues"
+  },
+  "homepage": "https://github.com/GyuJae/coding-test-pratice#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1"
+  }
+}
